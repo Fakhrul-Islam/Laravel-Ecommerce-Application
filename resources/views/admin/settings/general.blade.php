@@ -45,7 +45,7 @@
                     placeholder="Enter store currency code"
                     id="currency_code"
                     name="currency_code"
-                    value="{{ config('settings.currency_code') }}"
+                    value="{{ config('settings.currence_code') }}"
                 />
             </div>
             <div class="form-group">
@@ -56,7 +56,7 @@
                     placeholder="Enter store currency symbol"
                     id="currency_symbol"
                     name="currency_symbol"
-                    value="{{ config('settings.currency_symbol') }}"
+                    value="{{ config('settings.currence_symbol') }}"
                 />
             </div>
         </div>

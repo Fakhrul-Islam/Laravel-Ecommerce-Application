@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/main.css') }}" />
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/font-awesome/4.7.0/css/font-awesome.min.css') }}" />
+    @stack('css')
   </head>
 
   <body class="app sidebar-mini rtl">
@@ -26,5 +27,6 @@
     <script src="{{asset('backend/js/main.js')}}"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="{{asset('backend/js/plugins/pace.min.js')}}"></script>
+    @stack('scripts')
   </body>
 </html>

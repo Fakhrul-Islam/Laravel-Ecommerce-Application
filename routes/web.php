@@ -25,6 +25,7 @@ Route::prefix('/admin')->name('admin.')->group(function(){
 	Route::get('/', function(){
 		return view('admin.dashboard.index');
 	})->name('dashboard');
+	
 	Route::get('/settings','Admin\SettingController@index')->name('settings');
 	Route::post('/settings','Admin\SettingController@update')->name('settings.update');
 
